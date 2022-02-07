@@ -89,7 +89,7 @@ RUN \
     \
     # to run nginx (default pid directory and tmp directory)
     && chmod -R a+w /run/nginx \
-    && chmod -R a+wx /var/tmp/nginx \
+    #&& chmod -R a+wx /var/tmp/nginx \
     \
     # to run supervisor (read conf and create socket)
     && chmod -R a+r /etc/supervisor* \
